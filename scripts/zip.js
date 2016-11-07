@@ -64,25 +64,3 @@
   getData();
   module.zip = zip;
 })(window);
-
-
-// data.features.forEach(function(ele){
-//   zip.zips.push(
-//     zip[ele.properties.zip] = {
-//     'neighborhood': ele.properties.neighborhood,
-//     'address':
-//       function(){
-//         if (ele.properties.neighborhood === ""){
-//           return null;
-//         } else {
-//           return ele.properties.neighborhood;
-//         };
-//       },
-//     'coordinates': {
-//       'lat': ele.geometry.coordinates[0],
-//       'lng': ele.geometry.coordinates[1]
-//     }
-//   }
-// );
-// });
-// )};
